@@ -64,8 +64,8 @@ export default function Home() {
                 Ndwandwe Engineering & Project Management (Pty) Ltd provides world-class technical expertise and operational excellence in mining infrastructure.
               </p>
               <div className="flex flex-wrap gap-4">
-                <Link to="/contact" className="px-8 py-4 bg-[#1a1a1a] text-white font-bold rounded-sm hover:bg-black transition-all flex items-center gap-2 group">
-                  Get a Consultation
+                <Link to="/contact" className="px-8 py-4 bg-[#1a1a1a] text-white font-bold rounded-sm hover:bg-black transition-all flex items-center gap-2 group uppercase tracking-widest">
+                  GET QUOTE
                   <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </Link>
                 <Link to="/services" className="px-8 py-4 border-2 border-gray-200 text-gray-900 font-bold rounded-sm hover:border-[#76b07d] hover:text-[#76b07d] transition-all">

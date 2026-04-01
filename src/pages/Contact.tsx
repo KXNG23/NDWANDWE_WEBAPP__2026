@@ -116,42 +116,8 @@ export default function Contact() {
               </div>
             </motion.div>
           </div>
-
-          {/* Google Map Section */}
-          <motion.div
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
-            className="w-full h-[500px] rounded-sm overflow-hidden shadow-2xl border border-gray-100"
-          >
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m12!1m3!1d3576.967812345678!2d28.045678!3d-26.278901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950f1a2b3c4d5e%3A0x1234567890abcdef!2s56%20Hythe%20Ave%2C%20Mulbarton%2C%20Johannesburg%2C%202058%2C%20South%20Africa!5e0!3m2!1sen!2sza!4v1711950000000!5m2!1sen!2sza"
-              width="100%"
-              height="100%"
-              style={{ border: 0 }}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              title="Ndwandwe Engineering Location"
-            ></iframe>
-          </motion.div>
         </div>
       </section>
-
-      {/* Floating WhatsApp Button */}
-      <motion.a
-        href={whatsappLink}
-        target="_blank"
-        rel="noopener noreferrer"
-        initial={{ scale: 0, opacity: 0 }}
-        animate={{ scale: 1, opacity: 1 }}
-        whileHover={{ scale: 1.1 }}
-        whileTap={{ scale: 0.9 }}
-        className="fixed bottom-8 right-8 z-50 w-16 h-16 bg-[#25D366] text-white rounded-full flex items-center justify-center shadow-2xl hover:bg-[#128C7E] transition-colors"
-      >
-        <MessageCircle className="w-8 h-8" />
-      </motion.a>
     </div>
   );
 }

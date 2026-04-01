@@ -11,6 +11,7 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from "react-route
 import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
 import SplashScreen from "./components/layout/SplashScreen";
+import WhatsAppButton from "./components/ui/WhatsAppButton";
 
 // Pages
 import Home from "./pages/Home";
@@ -57,6 +58,7 @@ export default function App() {
               </Routes>
             </main>
             <Footer />
+            <WhatsAppButton />
           </>
         )}
       </div>

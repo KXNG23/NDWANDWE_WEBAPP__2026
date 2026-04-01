@@ -45,8 +45,8 @@ export default function Navbar() {
                 {link.name}
               </Link>
             ))}
-            <Link to="/contact" className="bg-[#76b07d] text-white px-6 py-2.5 rounded-sm text-sm font-bold hover:bg-[#659a6b] transition-all shadow-lg shadow-green-900/10">
-              Contact Us
+            <Link to="/contact" className="bg-[#76b07d] text-white px-6 py-2.5 rounded-sm text-sm font-bold hover:bg-[#659a6b] transition-all shadow-lg shadow-green-900/10 uppercase tracking-widest">
+              GET QUOTE
             </Link>
           </div>
 
@@ -79,9 +79,9 @@ export default function Navbar() {
           <Link 
             to="/contact" 
             onClick={() => setIsMenuOpen(false)} 
-            className="text-lg font-bold text-[#76b07d]"
+            className="text-lg font-bold text-[#76b07d] uppercase tracking-widest"
           >
-            Contact Us
+            GET QUOTE
           </Link>
         </motion.div>
       )}
